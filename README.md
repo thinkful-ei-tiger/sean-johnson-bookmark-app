@@ -2,7 +2,7 @@ https://thinkful-ei-tiger.github.io/sean-johnson-bookmark-app/
 
 This is the bookmark app that I have created.  
 
-This app allows users to quickly access their favorite websites. In creating this application, I utilized Thinkful's API to create, delete, and post bookmark items. Rather than writing directly in the HTML file, I chose to use template-generation functions to render the HTML at different screens. The page screens were rendered through jQuery using DOM traversal and manipulation. 
+This app allows users to quickly access their favorite websites. In creating this application, I utilized Thinkful's API to create, delete, and post bookmark items with AJAX requests. Rather than writing directly in the HTML file, I chose to use template-generation functions to render the HTML at different screens. The page screens were rendered through jQuery using DOM traversal and manipulation. 
 
 Please see user stories below:
 
