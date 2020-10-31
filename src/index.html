@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  <title>Sean's Bookmark App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Bookmark App</h1>
+  </header>
+  <main>
+  </main>
+  <script type="module" src="src/index.js"></script>
+</body>
+</html>
+
+<!--
+  PROJECT REQUIREMENTS BELOW:
+
+  Grading:
+
+  1. Push your final version to the gh-pages branch of your repo.  Your repo should be inside the cohort's orgnaization and name "Sean-Johnson-bookmarks-app"
+  2. Add the live GH pages link to the header of your repo.
+  3. Create a README.md file that contains a full list of all user stories completed.
+  4. Submit the repo URL at the bottom of this page.
+
+  User Stories:
+  
+  1. I can add bookmarks to my bookmark list.  Bookmarks contain: title, url link, description, rating (1-5).
+  2. I can see a list of my bookmarks when I first open the app.
+    --All bookmarks in the list default to a "condensed" view showing only title and rating.
+  3. I can click on a bookmark to display the "detailed" view.
+    --Detailed view expands to additionally display description and a "Visit Site" link.
+  4. I can remove bookmarks from my bookmark list.
+  5. I receive appropriate feedback when I cannot submit a bookmark.
+    --Check all validations in the API documentation (e.g. "title" and "url" field required).
+  6. I can select from a "dropdown" (a <select> element) a minimum rating to filter the list by all bookmarks rated at or above the chosen selection.
+  7. (Extension feature - optional) - I can edit the rating and description of a bookmark in my list.
+
+  Technical Requirements:
+
+  1. Use "fetch" for AJAX calls and JQuery for DOM manipulation
+  2. Use namespacing to adhere to good architecture practices
+    --Minimum global variables.
+    --Create modules in separate files to organize your code
+    --Logically group your functions (e.g. API methods, store methods...).
+  3. Keep your Data out of the DOM.
+    --No direct DOM manipulation in your event handlers.
+    --Follow the React-ful design pattern - change your state, re-render your component.
+  4. Use semantic HTML.
+  5. Use a responsive and mobile-first design.
+    --Visually and functionally solid in viewport for mobile and desktop.
+  6. Follow a11y best practices.
+    --Refer back to the accessibility checklist and the lesson on forms.
+
+-->

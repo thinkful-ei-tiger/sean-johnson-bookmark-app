@@ -1,0 +1,247 @@
+* {
+    background-color: rgb(250, 250, 234);
+}
+
+h1 {
+    text-align: center;
+    font-size: 37px;
+    background-color: #e07373;
+    padding: 10px;
+    margin: 15px;
+    color: azure;
+    border: double skyblue;
+    text-shadow: 1.3px 1.3px black;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.upper-portion {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 7px;
+    border: ridge;
+    background-color: #d4e0e4;
+    border-radius: 10px;
+}
+
+.new-bookmark-button {
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0px 5px;
+    font-weight: bold;
+    color: azure;
+    background-color: dodgerblue;
+    text-shadow: 1.3px 1.3px black;
+    border: double white;
+}
+
+.js-stars-filter {
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0px 15px;
+    font-weight: bold;
+    color: azure;
+    background-color: dodgerblue;
+    text-shadow: 1.3px 1.3px black;
+    border: double white;
+}
+
+.combo-unordered {
+    list-style: none;
+    padding: 0px;
+}
+
+::marker {
+    color: rgb(252, 252, 229);
+    display: none;
+}
+
+.bookmark-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: double salmon;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+.title-area {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: azure;
+    text-transform: uppercase;
+    color: indigo;
+}
+
+.rating-area {
+    font-size: 18px;
+    font-family: helvetica;
+    background-color: azure;
+}
+
+.info-top {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #39395d;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.info-delete-button {
+    border-radius: 5px;
+    color: rgb(235, 51, 88);
+    font-family: times;
+    background-color: white;
+}
+
+.more-buttons {
+    font-size: 17px;
+    margin-top: -3px;
+}
+
+.description-header {
+    text-align: center;
+    margin: -7px;
+    color: navy;
+    font-weight: bold;
+}
+
+.description-text {
+    background-color: white;
+    margin: 18px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 15px;
+    border-radius: 10px;
+    border: dotted #e8abb4;
+}
+
+.more-info-container {
+    margin: 20px
+}
+
+.combo-container {
+    margin: 0px 5px;
+}
+
+.add-upper-portion {
+    color: navy;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.js-add-URL {
+    margin: 20px;
+    border-radius: 3px;
+    border: 2px solid navy;
+    background-color: white;
+}
+
+.ratings-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-middle-title {
+    text-align: center;
+    padding: 10px;  
+}
+
+.js-add-middle-title {
+    padding: 4px 24px;
+    font-size: 20px;
+    font-family: times;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid navy;
+    text-align: center;
+}
+
+.ratings-section-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ratings-value {
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.text-area-container {
+    display: grid;
+    margin: 5px 25px;
+    border: solid navy 1.5px;
+}
+
+.js-add-middle-description {
+    background-color: white;
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold; 
+}
+
+.add-bottom-portion {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.cancel-button {
+    background-color: navy;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+}
+
+.create-button {
+    background-color: navy;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+}
+
+.js-error-message {
+    background-color: red;
+    margin: 5px 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold; 
+}
+
+.add-ratings-whole {
+    display: grid;
+}
+
+@media all and (min-width: 700px){
+    main {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        padding-top: 25px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
